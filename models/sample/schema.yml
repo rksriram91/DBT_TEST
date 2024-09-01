@@ -2,9 +2,9 @@ version: 1
 
 models:
     - name: dim_customers
-      description:"Defining dimesions of a customer"
+      description: "Defining dimesions of a customer"
       columns:
           - name: customer_id
-            description:
+            description: "Id of the customer unique"
             tests: 
                 - not null
